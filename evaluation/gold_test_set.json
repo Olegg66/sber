@@ -1,0 +1,278 @@
+{
+  "РусГидро": {
+    "split": "dev",
+    "core_products": [
+      "IRS"
+    ],
+    "acceptable_products": [
+      "FX Forward",
+      "Deposit",
+      "Structured Note"
+    ],
+    "forbidden_products": [
+      "Commodity Hedge"
+    ],
+    "risk_keyword_groups": [
+      [
+        "процент",
+        "ставк",
+        "долг"
+      ],
+      [
+        "инвест",
+        "капитальн",
+        "проект"
+      ],
+      [
+        "валют",
+        "оборудован"
+      ],
+      [
+        "ликвид",
+        "кассов"
+      ]
+    ]
+  },
+  "Аэрофлот": {
+    "split": "dev",
+    "core_products": [
+      "FX Forward",
+      "Option Collar",
+      "Commodity Hedge"
+    ],
+    "acceptable_products": [
+      "Deposit",
+      "Repo"
+    ],
+    "forbidden_products": [
+      "DCD",
+      "Structured Note"
+    ],
+    "risk_keyword_groups": [
+      [
+        "валют",
+        "курс"
+      ],
+      [
+        "топлив",
+        "товар"
+      ],
+      [
+        "сезон",
+        "ликвид",
+        "кассов"
+      ]
+    ]
+  },
+  "Норникель": {
+    "split": "holdout",
+    "core_products": [
+      "Commodity Hedge",
+      "FX Forward",
+      "Option Collar"
+    ],
+    "acceptable_products": [
+      "IRS",
+      "Deposit",
+      "Prepaid Forward"
+    ],
+    "forbidden_products": [],
+    "risk_keyword_groups": [
+      [
+        "товар",
+        "металл",
+        "никел",
+        "мед",
+        "паллад"
+      ],
+      [
+        "валют",
+        "экспорт"
+      ],
+      [
+        "инвест",
+        "эколог",
+        "капитальн"
+      ],
+      [
+        "ликвид"
+      ]
+    ]
+  },
+  "РЖД": {
+    "split": "dev",
+    "core_products": [
+      "IRS",
+      "Repo",
+      "Deposit"
+    ],
+    "acceptable_products": [
+      "FX Forward"
+    ],
+    "forbidden_products": [
+      "Commodity Hedge"
+    ],
+    "risk_keyword_groups": [
+      [
+        "процент",
+        "ставк",
+        "долг",
+        "фондирован"
+      ],
+      [
+        "инвест",
+        "проект",
+        "капитальн"
+      ],
+      [
+        "ликвид",
+        "кассов",
+        "платеж"
+      ],
+      [
+        "валют",
+        "оборудован"
+      ]
+    ]
+  },
+  "Магнит": {
+    "split": "dev",
+    "core_products": [
+      "Deposit",
+      "Repo",
+      "FX Forward"
+    ],
+    "acceptable_products": [
+      "Structured Note"
+    ],
+    "forbidden_products": [
+      "Commodity Hedge"
+    ],
+    "risk_keyword_groups": [
+      [
+        "оборотн",
+        "ликвид",
+        "поставщик"
+      ],
+      [
+        "фондирован",
+        "ставк"
+      ],
+      [
+        "валют",
+        "импорт"
+      ],
+      [
+        "остат",
+        "размещен"
+      ]
+    ]
+  },
+  "Лукойл": {
+    "split": "dev",
+    "core_products": [
+      "Commodity Hedge",
+      "FX Forward",
+      "XCCY"
+    ],
+    "acceptable_products": [
+      "IRS",
+      "Deposit",
+      "Repo"
+    ],
+    "forbidden_products": [],
+    "risk_keyword_groups": [
+      [
+        "нефт",
+        "товар",
+        "цен"
+      ],
+      [
+        "валют",
+        "экспорт"
+      ],
+      [
+        "процент",
+        "ставк",
+        "долг"
+      ],
+      [
+        "ликвид",
+        "налог",
+        "инвест"
+      ]
+    ]
+  },
+  "МТС": {
+    "split": "dev",
+    "core_products": [
+      "IRS",
+      "FX Forward",
+      "Deposit"
+    ],
+    "acceptable_products": [
+      "Structured Note"
+    ],
+    "forbidden_products": [
+      "Commodity Hedge"
+    ],
+    "risk_keyword_groups": [
+      [
+        "процент",
+        "ставк",
+        "долг"
+      ],
+      [
+        "валют",
+        "оборудован"
+      ],
+      [
+        "ликвид",
+        "остат"
+      ],
+      [
+        "инвест",
+        "сет",
+        "цифров"
+      ]
+    ]
+  },
+  "ФосАгро": {
+    "split": "holdout",
+    "core_products": [
+      "FX Forward",
+      "Option Collar",
+      "Commodity Hedge"
+    ],
+    "acceptable_products": [
+      "IRS",
+      "DCD",
+      "Deposit"
+    ],
+    "forbidden_products": [
+      "Structured Note"
+    ],
+    "risk_keyword_groups": [
+      [
+        "валют",
+        "экспорт"
+      ],
+      [
+        "товар",
+        "сырь",
+        "газ",
+        "логист"
+      ],
+      [
+        "сезон",
+        "оборотн",
+        "ликвид"
+      ],
+      [
+        "процент",
+        "ставк",
+        "долг"
+      ]
+    ]
+  }
+}
